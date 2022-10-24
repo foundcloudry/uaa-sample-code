@@ -31,9 +31,9 @@ inputs = {
     dependency.demo-write.outputs.display_name,
   ]
   redirect_uris = [
-    "http://default.foundcloudry.com:8082",
-    "http://default.foundcloudry.com:8082/",
-    "http://default.foundcloudry.com:8082/login/oauth2/code/uaa",
+    "http://localhost:8082",
+    "http://localhost:8082/",
+    "http://localhost:8082/login/oauth2/code/uaa",
   ]
 }
 
