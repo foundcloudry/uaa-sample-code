@@ -9,7 +9,7 @@ inputs = {
   aws_region   = local.aws_region
   uaa_url           = "http://localhost:8080"
   uaa_client_id     = "admin"
-  uaa_client_secret = "admin-secret" // TODO: use separate dependency to pull from secretsmanager, ssm, etc
+  uaa_client_secret = "admin-secret"
   environment       = local.environment
 }
 
