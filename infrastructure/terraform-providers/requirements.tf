@@ -6,7 +6,7 @@ terraform {
     }
     uaa = {
       source  = "foundcloudry/uaa"
-      version = "~> 1.0.0"
+      version = "~> 1.0.1"
     }
   }
   required_version = ">= 0.13"
