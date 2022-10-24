@@ -9,7 +9,7 @@ database:
 zones:
   internal:
     hostnames:
-      - auth.foundcloudry.com
+      - localhost
 
 oauth:
   clients:
